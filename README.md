@@ -41,9 +41,7 @@ Necesita una aplicación web donde:
 ### 🗃️ Base de datos
 En lugar de crear las tablas manualmente con SQL, el proyecto utiliza **Sequelize** como ORM, que define los modelos y sincroniza la base automáticamente con PostgreSQL.
 
----
-
-## 📄 `models/User.js`
+### 📄 `models/User.js`
 ```
 import { DataTypes } from "sequelize";
 import sequelize from "../config/db.js";
@@ -58,9 +56,7 @@ const User = sequelize.define("User", {
 export default User;
 ```
 
----
-
-## 📄 models/Product.js
+### 📄 models/Product.js
 ```
 import { DataTypes } from "sequelize";
 import sequelize from "../config/db.js";
@@ -75,9 +71,7 @@ const Product = sequelize.define("Product", {
 export default Product;
 ```
 
----
-
-## ⚙️ config/db.js
+### ⚙️ config/db.js
 ```
 import { Sequelize } from "sequelize";
 
