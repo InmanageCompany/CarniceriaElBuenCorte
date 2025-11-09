@@ -38,7 +38,9 @@ Necesita una aplicación web donde:
 - Uso de **bcrypt** para encriptar contraseñas.
 - Uso de **JWT (JSON Web Token)** para manejar sesiones.
 
-### 🗃️ Base de datos
+---
+
+## 🗃️ Base de datos
 En lugar de crear las tablas manualmente con SQL, el proyecto utiliza **Sequelize** como ORM, que define los modelos y sincroniza la base automáticamente con PostgreSQL.
 
 ### 📄 `models/User.js`
